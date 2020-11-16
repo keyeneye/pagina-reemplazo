@@ -1,0 +1,188 @@
+:root{
+    --geom-red: #C81912;
+    --button-blue: #122FC8;
+    --section-text: #42240C;
+    --card-color:#c4c4c4;
+    --body-background: #FFF9F6;
+    --just-white: #FFFAFA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--body-background);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    height: 72px;
+    background-color: var(--geom-red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--just-white);
+}
+header a{
+    color: var(--just-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+header figure{
+    padding-left: 12px;
+}
+header figure img{
+    height: 55px;
+    width: 55px;
+}
+header .header-nav{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .header-nav-right{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header .header-nav-right li{
+    width: 58px;
+    text-align: center;
+}
+.materiales-topo{
+    margin-top: 90px;
+}
+.materiales{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 25px;
+}
+main h1{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 21px;
+    color: var(--section-text);
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    margin-bottom: 30px;
+}
+.pdftag{
+    background-color: var(--geom-red);
+    width: auto;
+    padding: 5px 6px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--just-white);
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.cards-container--slider{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.card-book{ 
+    height: 235px;
+    background-color: var(--card-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.card-book .card-title{
+    position: absolute;
+    top: -10px;
+    z-index: 3;
+    color: var(--just-white);
+    background-color: var(--geom-red);
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.card-book .card-body .card-image{
+    position: relative;
+    width: 170px;
+    height: 160px ;
+}
+.card-book .book-description{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    background-color: var(--geom-red);
+    color: var(--just-white);
+}
+.card-book .card-button{
+    width: 120px;
+    height: 30px;
+    background-color: var(--button-blue);
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: var(--just-white);
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    bottom: 0;
+}
+.card-book a{
+    margin-top: 10px;
+}
+.material-presentation{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+/* .material-presentation iframe{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} */
