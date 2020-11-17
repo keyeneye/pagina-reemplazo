@@ -1,5 +1,6 @@
 :root{
     --geom-red: #C81912;
+    --subtitle: #F64B3C;
     --button-blue: #122FC8;
     --section-text: #42240C;
     --card-color:#c4c4c4;
@@ -23,6 +24,14 @@ body{
 a{
     text-decoration: none;
     cursor: pointer;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--subtitle);
+    margin-bottom: 10px;
 }
 header{
     position: fixed;
@@ -179,10 +188,3 @@ main h1{
     width: 100%;
     position: relative;
 }
-/* .material-presentation iframe{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-} */
