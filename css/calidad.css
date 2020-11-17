@@ -1,0 +1,69 @@
+:root{
+    --geom-red: #C81912;
+    --button-blue: #122FC8;
+    --section-text: #42240C;
+    --card-color:#c4c4c4;
+    --body-background: #FFF9F6;
+    --just-white: #FFFAFA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--body-background);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    height: 72px;
+    background-color: var(--geom-red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--just-white);
+}
+header a{
+    color: var(--just-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+header figure{
+    padding-left: 12px;
+}
+header figure img{
+    height: 55px;
+    width: 55px;
+}
+header .header-nav{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .header-nav-right{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header .header-nav-right li{
+    width: 58px;
+    text-align: center;
+}
