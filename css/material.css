@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Roboto','sans-serif';
 }
 html{
     font-size: 62.5%;
@@ -196,13 +196,13 @@ footer{
 footer a{
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: lighter;
     line-height: 1.4rem;
+    font-weight: lighter;
     color: var(--just-white);
 }
 .footer-top{
-    display: flex;
     height: 50%;
+    display: flex;
     justify-content: space-between;
     border-bottom: 0.5px solid var(--just-white);
 }
@@ -214,6 +214,16 @@ footer a{
     display: flex;
     list-style: none;
 }
+.social-icons li{
+    margin: 0 10px;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+}
+/* 
+
+
 .social-icons li{
     margin: 0 10px;
 }
@@ -246,4 +256,4 @@ footer img{
     line-height: 0.7rem;
     font-weight: lighter;
     text-align: center;
-}
+} */
