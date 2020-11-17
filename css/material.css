@@ -221,16 +221,6 @@ footer img{
     width: 24px;
     height: 24px;
 }
-/* 
-
-
-.social-icons li{
-    margin: 0 10px;
-}
-footer img{
-    width: 24px;
-    height: 24px;
-}
 .top-right{
     display: flex;
     align-items: center;
@@ -250,6 +240,8 @@ footer img{
 .footer-bottom{
     height: 50%;
 }
+/* 
+
 .footer-bottom p{
     color: rgb(207, 207, 207);
     font-size: 0.6rem;
