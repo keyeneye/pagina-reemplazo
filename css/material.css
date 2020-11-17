@@ -188,3 +188,62 @@ main h1{
     justify-content: center;
     flex-wrap: wrap;
 }
+footer{
+    height: 72px;
+    width: 100%;
+    background-color: var(--geom-red);
+}
+footer a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    color: var(--just-white);
+}
+.footer-top{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--just-white);
+}
+.top-left{
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+}
+.social-icons li{
+    margin: 0 10px;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.top-links li{
+    text-align: center;
+    margin: 0 10px;
+}
+.footer-bottom{
+    height: 50%;
+}
+.footer-bottom p{
+    color: rgb(207, 207, 207);
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+    font-weight: lighter;
+    text-align: center;
+}
