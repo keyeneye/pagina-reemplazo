@@ -1,0 +1,10 @@
+.hero-container{
+    background-color: #1a1414;
+}
+.container-cards-fodos{
+    display: flex;
+    justify-content: center;
+}
+.container-cards-practicas, .container-cards-horarios, .container-cards-fodos{
+    overflow-x: unset;
+}

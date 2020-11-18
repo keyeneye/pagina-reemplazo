@@ -1,0 +1,28 @@
+header a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: var(--just-white);
+}
+.header-nav{
+    width: 50%;
+}
+.header-nav-right{
+    width: 100%;
+    justify-content: flex-end;
+}
+.header-nav-right li{
+    margin-left: 15px;
+}
+.container-cards-practicas, .container-cards-horarios{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: var(--just-white);
+}
