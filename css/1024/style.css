@@ -4,6 +4,7 @@
 .container-cards-fodos{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .container-cards-practicas, .container-cards-horarios, .container-cards-fodos{
     overflow-x: unset;

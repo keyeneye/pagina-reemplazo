@@ -1,6 +1,3 @@
-/* body{
-    position: relative;
-} */
 header a{
     text-decoration: none;
     font-size: 1.4rem;
@@ -43,7 +40,3 @@ footer a{
     line-height: 1.6rem;
     color: var(--just-white);
 }
-/* footer{
-    position: absolute;
-    bottom: -17%;
-} */

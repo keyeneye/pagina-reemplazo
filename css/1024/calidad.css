@@ -1,0 +1,9 @@
+.container-cards-practicas{
+    overflow-x: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-geom{
+    margin-bottom: 15px;
+}

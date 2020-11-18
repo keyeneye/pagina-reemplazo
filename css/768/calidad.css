@@ -1,6 +1,3 @@
-/* body{
-    position: relative;
-} */
 header a{
     text-decoration: none;
     font-size: 1.4rem;
@@ -18,11 +15,8 @@ header a{
 .header-nav-right li{
     margin-left: 15px;
 }
-.cards-container--slider{
-    justify-content: center;
+.manual-practicas{
     overflow-x: unset;
-}
-.container-cards-practicas, .container-cards-horarios{
     display: flex;
     justify-content: center;
 }
@@ -43,7 +37,3 @@ footer a{
     line-height: 1.6rem;
     color: var(--just-white);
 }
-/* footer{
-    position: absolute;
-    bottom: -17%;
-} */
