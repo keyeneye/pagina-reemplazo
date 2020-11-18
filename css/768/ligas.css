@@ -1,6 +1,6 @@
-/* body{
+body{
     position: relative;
-} */
+}
 header a{
     text-decoration: none;
     font-size: 1.4rem;
@@ -18,20 +18,6 @@ header a{
 .header-nav-right li{
     margin-left: 15px;
 }
-.cards-container--slider{
-    justify-content: center;
-    overflow-x: unset;
-}
-.container-cards-practicas, .container-cards-horarios{
-    display: flex;
-    justify-content: center;
-}
-.card-title-text{
-    font-size: 1.2rem;
-}
-.card-body .card-button{
-    font-size: 1.4rem;
-}
 .pdftag{
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -43,7 +29,7 @@ footer a{
     line-height: 1.6rem;
     color: var(--just-white);
 }
-/* footer{
+footer{
     position: absolute;
     bottom: -17%;
-} */
+}
