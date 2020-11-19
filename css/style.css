@@ -84,7 +84,7 @@ header .header-nav-right li{
 .hero ul{
     width: 400%;
     display: flex;
-    animation: slider_change 20s infinite alternate;
+    animation: slider_change 15s infinite alternate;
     animation-timing-function: ease-in-out;
 }
 .hero li{
