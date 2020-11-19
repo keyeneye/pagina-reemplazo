@@ -15,6 +15,12 @@ header a{
 .header-nav-right li{
     margin-left: 15px;
 }
+.hero{
+    width: 65%;
+    max-height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .container-cards-practicas, .container-cards-horarios{
     display: flex;
     justify-content: center;
