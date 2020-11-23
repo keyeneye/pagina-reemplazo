@@ -189,7 +189,7 @@ main h1{
     box-shadow: 0px 4px rgba(62, 98, 219, 0.3);
 }
 footer{
-    height: 79.5px;
+    height: auto;
     width: 100%;
     background-color: var(--geom-red);
 }
@@ -242,8 +242,8 @@ footer img{
 }
 .footer-bottom p{
     color: rgb(255,255,255);
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     font-weight: lighter;
     text-align: center;
 }
