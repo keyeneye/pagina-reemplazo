@@ -91,6 +91,9 @@ header .header-nav-right li{
     text-align: center;
     margin-bottom: 15px;
 }
+.pdftag:hover{
+    box-shadow: 4px -4px 13px rgba(0, 0, 0, 0.25);
+}
 main h1{
     width: 100%;
     text-align: center;
@@ -163,6 +166,9 @@ main h1{
     display:flex;
     align-items:center;
     justify-content:center;
+}
+.card-body .card-button:hover{
+    box-shadow: 0px 4px rgba(62, 98, 219, 0.3);
 }
 footer{
     height: 72px;

@@ -100,6 +100,9 @@ main h1{
     text-align: center;
     margin-bottom: 15px;
 }
+.pdftag:hover{
+    box-shadow: 4px -4px 13px rgba(0, 0, 0, 0.25);
+}
 footer{
     height: 72px;
     width: 100%;
