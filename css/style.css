@@ -47,6 +47,7 @@ header figure{
     padding-left: 12px;
 }
 header figure img{
+    object-fit: contain;
     height: 55px;
     width: 55px;
 }
@@ -82,7 +83,7 @@ header .header-nav-right li{
     overflow: hidden;
 }
 .hero ul{
-    width: 400%;
+    width: 300%;
     display: flex;
     animation: slider_change 15s infinite alternate;
     animation-timing-function: ease-in-out;
@@ -95,7 +96,7 @@ header .header-nav-right li{
     width: 100%;
     height: 100%;
     max-height: 350px;
-    /* object-fit: cover; */
+    object-fit: contain;
 }
 
 main h1{
@@ -242,7 +243,7 @@ footer img{
 }
 .footer-bottom p{
     color: rgb(255,255,255);
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.2rem;
     font-weight: lighter;
     text-align: center;
@@ -261,17 +262,11 @@ footer img{
     45%{
         margin-left: -100%;
     }
-    50%{
-        margin-left: -200%;
-    }
-    70%{
-        margin-left: -200%;
-    }
     75%{
-        margin-left: -300%;
+        margin-left: -200%;
     }
     100%{
-        margin-left: -300%;
+        margin-left: -200%;
     }
 
 }
