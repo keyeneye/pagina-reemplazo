@@ -1,5 +1,5 @@
 :root{
-    --geom-red: #C81912;
+    --geom-red: #f12711;
     --button-blue: #122FC8;
     --section-text: #42240C;
     --card-color:#c4c4c4;
@@ -18,7 +18,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: var(--body-background);
+    background: linear-gradient( #C81912, #f5af19);
 }
 a{
     text-decoration: none;
@@ -30,7 +30,7 @@ header{
     z-index: 4;
     width: 100%;
     height: 72px;
-    background-color: var(--geom-red);
+    /* background-color: var(--geom-red); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,7 +73,7 @@ header .header-nav-right li{
 }
 .hero-container{
     width: 100%;
-    background-color: #1a1414;
+    /* background-color: #f5af19; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,7 +195,7 @@ main h1{
 footer{
     height: auto;
     width: 100%;
-    background-color: var(--geom-red);
+    /* background-color: var(--geom-red); */
 }
 footer a{
     text-decoration: none;
