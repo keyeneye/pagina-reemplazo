@@ -109,8 +109,8 @@ main h1{
     margin-bottom: 35px;
 }
 .semestre_terminado{
-    display: none;
-    /* display: flex; */
+    /* display: none; */
+    display: flex;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
