@@ -47,6 +47,7 @@ header figure{
     padding-left: 12px;
 }
 header figure img{
+    object-fit: contain;
     height: 55px;
     width: 55px;
 }
@@ -81,7 +82,6 @@ main h1{
     margin-bottom: 35px;
 }
 .container-cards-practicas{
-    /* margin-top: 90px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -124,6 +124,7 @@ main h1{
 }
 .card-body .card-image{
     width: 170px;
+    object-fit: contain;
 }
 .card-body .card-button{
     width: 120px;
@@ -143,7 +144,7 @@ main h1{
     box-shadow: 0px 4px rgba(62, 98, 219, 0.3);
 }
 footer{
-    height: 72px;
+    height: auto;
     width: 100%;
     background-color: var(--geom-red);
 }
@@ -195,9 +196,9 @@ footer img{
     height: 50%;
 }
 .footer-bottom p{
-    color: rgb(207, 207, 207);
-    font-size: 0.6rem;
-    line-height: 0.7rem;
+    color: rgb(255,255,255);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
     font-weight: lighter;
     text-align: center;
 }

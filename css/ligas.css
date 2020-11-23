@@ -49,6 +49,7 @@ header figure{
 header figure img{
     height: 55px;
     width: 55px;
+    object-fit: contain;
 }
 header .header-nav{
     width: 250px;
@@ -104,7 +105,7 @@ main h1{
     box-shadow: 4px -4px 13px rgba(0, 0, 0, 0.25);
 }
 footer{
-    height: 72px;
+    height: auto;
     width: 100%;
     background-color: var(--geom-red);
 }
@@ -156,9 +157,9 @@ footer img{
     height: 50%;
 }
 .footer-bottom p{
-    color: rgb(207, 207, 207);
-    font-size: 0.6rem;
-    line-height: 0.7rem;
+    color: rgb(255,255,255);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
     font-weight: lighter;
     text-align: center;
 }

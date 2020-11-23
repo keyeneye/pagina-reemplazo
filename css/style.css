@@ -43,6 +43,9 @@ header a{
     font-size: 1.2rem;
     font-weight: lighter;
 }
+header a:hover{
+    font-weight: bold;
+}
 header figure{
     padding-left: 12px;
 }
