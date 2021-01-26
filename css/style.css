@@ -86,7 +86,7 @@ header .header-nav-right li{
     overflow: hidden;
 }
 .hero ul{
-    width: 300%;
+    width: 400%;
     display: flex;
     animation: slider_change 15s infinite alternate;
     animation-timing-function: ease-in-out;
@@ -262,14 +262,20 @@ footer img{
     25%{
         margin-left: -100%;
     }
-    45%{
+    40%{
         margin-left: -100%;
     }
-    75%{
+    50%{ 
         margin-left: -200%;
     }
-    100%{
+    65%{
         margin-left: -200%;
+    } 
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
     }
 
 }
