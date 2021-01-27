@@ -191,6 +191,7 @@ main h1{
 }
 .card-body .card-image{
     width: 170px;
+    height: 150px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
