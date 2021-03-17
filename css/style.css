@@ -91,9 +91,9 @@ header .header-nav-right li{
     overflow: hidden;
 }
 .hero ul{
-    width: 400%;
+    width: 500%;
     display: flex;
-    animation: slider_change 15s infinite alternate;
+    animation: slider_change 20s infinite alternate;
     animation-timing-function: ease-in-out;
 }
 .hero li{
@@ -291,26 +291,32 @@ footer img{
     0%{
         margin-left: 0;
     }
-    20%{
+    10%{
         margin-left: 0;
     }
-    25%{
+    15%{
+        margin-left: -100%
+    }
+    20%{
         margin-left: -100%;
+    }
+    25%{
+        margin-left: -200%;
     }
     40%{
-        margin-left: -100%;
+        margin-left: -200%;
     }
     50%{ 
-        margin-left: -200%;
+        margin-left: -300%;
     }
     65%{
-        margin-left: -200%;
+        margin-left: -300%;
     } 
     75%{
-        margin-left: -300%;
+        margin-left: -400%;
     }
     100%{
-        margin-left: -300%;
+        margin-left: -400%;
     }
 
 }
