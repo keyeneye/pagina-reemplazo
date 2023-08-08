@@ -8,22 +8,25 @@
 }
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;    
     box-sizing: border-box;
     font-family: 'Roboto';
-}
+} 
 html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 body{
+    text-align: center;
+    font-family: sans-serif;
     background-color: var(--body-background);
 }
 a{
     text-decoration: none;
     cursor: pointer;
 }
+
 header{
     position: fixed;
     top: 0;
