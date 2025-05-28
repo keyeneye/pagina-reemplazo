@@ -1,0 +1,211 @@
+:root{
+    --geom-caramel:#864c24;
+    --button-hex: #C23441;
+    --section-text: #000000;
+    --card-color:#DFD8D2;
+    --body-background: #F8F0EA;
+    --just-white: #FFFAFA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Federo", sans-serif;
+}
+html{
+    font-size: 70%;
+    font-family: "Federo", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--body-background);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    height: 65px;
+    background-color: var(--geom-caramel);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--just-white);
+}
+header a{
+    color: var(--just-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+header figure{
+    padding-left: 12px;
+}
+header figure img{
+    object-fit: contain;
+    height: 55px;
+    width: 55px;
+}
+header .header-nav{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .header-nav-right{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header .header-nav-right li{
+    width: 58px;
+    text-align: center;
+}
+.logo-unam{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+main h1{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 21px;
+    color: var(--section-text);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.main-practicas{
+    margin-bottom: 35px;
+}
+.container-cards-practicas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-geom{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 280px;
+    margin-top: 15px;
+    background-color: var(--card-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card-geom .card-title{
+    position: absolute;
+    top: -10px;
+    color: var(--just-white);
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    background-color: var(--geom-caramel);
+    text-align: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.card-body .card-image{
+    object-fit: contain;
+    width: 170px;
+}
+.card-body .card-button{
+    width: 120px;
+    height: 30px;
+    background-color: var(--button-hex);
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: var(--just-white);
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card-body .card-button:hover{
+    box-shadow: 0px 4px rgba(62, 98, 219, 0.3);
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: var(--geom-caramel);
+}
+footer a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.4rem;
+    color: var(--just-white);
+}
+.footer-top{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--just-white);
+}
+.top-left{
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+}
+.social-icons li{
+    margin: 0 10px;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.top-links li{
+    text-align: center;
+    margin: 0 10px;
+}
+.footer-bottom{
+    height: 50%;
+}
+.footer-bottom p{
+    color: rgb(255,255,255);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: lighter;
+    text-align: center;
+}

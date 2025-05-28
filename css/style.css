@@ -1,25 +1,25 @@
 :root{
-    --geom-red: #C81912;
-    --button-blue: #122FC8;
-    --section-text: #42240C;
-    --card-color:#c4c4c4;
-    --body-background: #FFF9F6;
+    --geom-caramel:#864c24;
+    --button-hex: #C23441;
+    --section-text: #000000;
+    --card-color:#DFD8D2;
+    --body-background: #F8F0EA;
     --just-white: #FFFAFA;
 }
 *{
     margin: 0;
     padding: 0;    
     box-sizing: border-box;
-    font-family: 'Roboto';
-} 
+    font-family: "Federo", sans-serif;
+    } 
 html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 70%;
+    font-family: "Federo", sans-serif;
     scroll-behavior: smooth;
 }
 body{
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Federo", sans-serif;
     background-color: var(--body-background);
 }
 a{
@@ -32,8 +32,8 @@ header{
     top: 0;
     z-index: 4;
     width: 100%;
-    height: 72px;
-    background-color: var(--geom-red);
+    height: 65px;
+    background-color: var(--geom-caramel);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,7 +111,7 @@ header .header-nav-right li{
 }
 
 main h1{
-    font-size: 1.8rem;
+    font-size: 2em;
     width: 100%;
     text-align: center;
     font-weight: bold;
@@ -144,7 +144,7 @@ main h1{
     position: absolute;
     top: -10px;
     color: var(--just-white);
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
     text-align: center;
     width: auto;
     height: 45px;
@@ -158,10 +158,10 @@ main h1{
     position: absolute;
     top: -10px;
     color: var(--just-white);
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
     text-align: center;
-    width: 110px;
-    height: 30px;
+    width: 130px;
+    height: 42px;
     border-radius: 10px;
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -188,7 +188,7 @@ main h1{
     font-weight: lighter;
     font-size: 1.2rem;
     line-height: 1.4rem;
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
     margin-top: -15px;
     margin-bottom: 15px;
 }
@@ -204,11 +204,11 @@ main h1{
 .card-body .card-button{
     width: 120px;
     height: 30px;
-    background-color: var(--button-blue);
+    background-color: var(--button-hex);
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: var(--just-white);
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.4rem;
     display:flex;
@@ -233,7 +233,7 @@ main h1{
 footer{
     height: auto;
     width: 100%;
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
 }
 footer a{
     text-decoration: none;
