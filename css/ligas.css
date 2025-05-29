@@ -1,23 +1,25 @@
 :root{
-    --geom-red: #C81912;
-    --button-blue: #122FC8;
-    --section-text: #42240C;
-    --card-color:#c4c4c4;
-    --body-background: #FFF9F6;
+    --geom-caramel:#864c24;
+    --button-hex: #C23441;
+    --section-text: #000000;
+    --card-color:#DFD8D2;
+    --body-background: #F8F0EA;
     --just-white: #FFFAFA;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: "Federo", sans-serif;
 }
 html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 70%;
+    font-family: "Federo", sans-serif;
     scroll-behavior: smooth;
 }
 body{
+    text-align: center;
+    font-family: "Federo", sans-serif;
     background-color: var(--body-background);
 }
 a{
@@ -29,8 +31,8 @@ header{
     top: 0;
     z-index: 4;
     width: 100%;
-    height: 72px;
-    background-color: var(--geom-red);
+    height: 65px;
+    background-color: var(--geom-caramel);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +76,7 @@ header .header-nav-right li{
     align-items: center;
 }
 main h1{
-    font-size: 1.8rem;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
     line-height: 21px;
@@ -94,7 +96,7 @@ main h1{
     margin-bottom: 25px;
 }
 .pdftag{
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
     width: auto;
     padding: 5px 6px;
     border-radius: 5px;
@@ -112,7 +114,7 @@ main h1{
 footer{
     height: auto;
     width: 100%;
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
 }
 footer a{
     text-decoration: none;

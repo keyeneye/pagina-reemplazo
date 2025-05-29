@@ -1,24 +1,25 @@
 :root{
-    --geom-red: #C81912;
-    --subtitle: #F64B3C;
-    --button-blue: #122FC8;
-    --section-text: #42240C;
-    --card-color:#c4c4c4;
-    --body-background: #FFF9F6;
+    --geom-caramel:#864c24;
+    --button-hex: #C23441;
+    --section-text: #000000;
+    --card-color:#DFD8D2;
+    --body-background: #F8F0EA;
     --just-white: #FFFAFA;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto','sans-serif';
+    font-family: "Federo", sans-serif;
 }
 html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 70%;
+    font-family: "Federo", sans-serif;
     scroll-behavior: smooth;
 }
 body{
+    text-align: center;
+    font-family: "Federo", sans-serif;
     background-color: var(--body-background);
 }
 a{
@@ -28,18 +29,18 @@ a{
 h2{
     width: 100%;
     text-align: center;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 2.1rem;
+    line-height: 1.4rem;
     /* color: var(--subtitle); */
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 header{
     position: fixed;
     top: 0;
     z-index: 4;
     width: 100%;
-    height: 72px;
-    background-color: var(--geom-red);
+    height: 65px;
+    background-color: var(--geom-caramel);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +51,7 @@ header a{
     color: var(--just-white);
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: lighter;
+    font-weight: normal;
 }
 header figure{
     padding-left: 12px;
@@ -94,7 +95,7 @@ header .header-nav-right li{
     margin-bottom: 25px;
 }
 main h1{
-    font-size: 1.8rem;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
     line-height: 21px;
@@ -103,13 +104,13 @@ main h1{
     margin-bottom: 30px;
 }
 .pdftag{
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
     width: auto;
     padding: 5px 6px;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: var(--just-white);
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.4rem;
     text-align: center;
@@ -140,12 +141,14 @@ main h1{
 .card-book .card-title{
     position: absolute;
     top: -10px;
-    z-index: 3;
+    z-index: 4;
     color: var(--just-white);
-    background-color: var(--geom-red);
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    background-color: var(--geom-caramel);
     text-align: center;
-    width: 110px;
-    height: 30px;
+    width: 140px;
+    height: 45px;
     border-radius: 10px;
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -162,26 +165,26 @@ main h1{
 .card-book .card-body .card-image{
     position: relative;
     width: 170px;
-    height: 160px ;
+    height: 150px ;
     object-fit: contain;
 }
 .card-book .book-description{
     width: 100%;
     text-align: center;
-    font-weight: lighter;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    background-color: var(--geom-red);
+    font-size: 1rem;
+    line-height: 1.1rem;
+    background-color: var(--geom-caramel);
     color: var(--just-white);
+   
 }
 .card-book .card-button{
     width: 120px;
     height: 30px;
-    background-color: var(--button-blue);
+    background-color: var(--button-hex);
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: var(--just-white);
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.4rem;
     display:flex;
@@ -204,7 +207,7 @@ main h1{
 footer{
     height: auto;
     width: 100%;
-    background-color: var(--geom-red);
+    background-color: var(--geom-caramel);
 }
 footer a{
     text-decoration: none;
